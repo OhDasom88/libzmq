@@ -1,5 +1,8 @@
 # CMake build script for ZeroMQ tests
-cmake_minimum_required(VERSION "2.8.1")
+# 250506 dasom
+# cmake_minimum_required(VERSION "2.8.1")
+cmake_minimum_required(VERSION 3.5)
+
 
 # On Windows: solution file will be called tests.sln
 project(tests)
